@@ -128,3 +128,25 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignore Python virtual environment
+Lib/
+Include/
+Scripts/
+pyvenv.cfg
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs and environment files
+*.log
+.env
+
+# Ignore database files
+*.sqlite3
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
